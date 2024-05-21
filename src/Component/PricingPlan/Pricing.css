@@ -1,0 +1,206 @@
+
+
+  @import url('https://fonts.googleapis.com/css2?family=Inter&family=Radio+Canada:wght@400;500&display=swap');
+
+  @import url('https://fonts.googleapis.com/css2?family=Radio+Canada:wght@400;500&display=swap');
+.main_check{
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+    padding-bottom: 40px;
+}
+.back{
+    background-image: url("../../Assets/pricing_background.png");
+    width: 100%;
+height: 100%;
+margin: 0;
+padding: 0;
+padding-bottom: 50px;
+padding-top: 50px;
+
+/* justify-content: center; */
+}
+.basic_plan{ 
+height: 570px;
+width: 292px !important;
+background-color: #FFFFFF;
+}
+.image_style_tickmark{
+    width: 38px;
+    height: 38px;
+  
+    
+}
+
+.text_style_desp{
+    color: #00235A;
+font-family: "Radio Canada";
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: 15px;
+position: relative;
+    top: 4px;
+}
+.priceplan{
+  
+    
+    font-family: Radio Canada;
+    font-size: 50px;
+    font-weight: 600;
+    line-height: 54px;
+    letter-spacing: 0em;
+    text-align: center;
+  
+    
+}
+.pricemonth{
+    font-family: Radio Canada;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 54px;
+    letter-spacing: 0em;
+    text-align: center;
+   
+    
+}
+
+  .pricing_btn {
+    width: 151.11px;
+    height: 56px;
+    /* top: 2575px; */
+    left: 65px;
+    padding: 0px, 34.11px, 0px, 34px;
+    background-color: #003EA2;
+    color: #FFFFFF;
+    font-family: Radio Canada;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 14px;
+  
+    transform: translateY(130%);
+  
+    position: relative;
+}
+  .pricing_btn1{
+    width: 151.11px;
+height: 56px;
+
+left: 70px;
+padding: 0px, 34.11px, 0px, 34px;
+background-color: #003EA2;
+color:#FFFFFF ;
+font-family: Radio Canada;
+font-size: 14px;
+font-weight: 600;
+line-height: 14px;
+letter-spacing: 0em;
+text-align: center;
+transform: translateY(68%);
+position: relative;
+  }
+  .pricing_btn2{
+    width: 151.11px;
+height: 56px;
+
+left: 70px;
+padding: 0px, 34.11px, 0px, 34px;
+background-color: #003EA2;
+color:#FFFFFF ;
+font-family: Radio Canada;
+font-size: 14px;
+font-weight: 600;
+line-height: 14px;
+letter-spacing: 0em;
+text-align: center;
+transform: translateY(7%);
+position: relative;
+  }
+  .img_stand{
+    transform: translateY(-50%);
+    position: relative;
+    left: 52px;
+  }
+.princing_head{
+    font-family: Radio Canada;
+font-size: 38px;
+font-weight: 700;
+line-height: 54px;
+letter-spacing: 0em;
+text-align: center;
+color: #FFFFFF;
+
+}
+.pricing_subhead{
+    font-family: Inter;
+font-size: 14px;
+font-weight: 400;
+line-height: 28px;
+letter-spacing: 0em;
+text-align: center;
+color:#FFFFFF;
+}
+
+  @media screen and (max-width:1280px) {
+    .main_check {
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+    }
+  }
+  @media screen and (max-width:950px) {
+    .main_check {
+        display: grid;
+        justify-content: center;
+        gap: 40px;
+    }
+    .arrowupimg{
+        display: none;
+    }
+    .basic_plan {
+   
+        margin-bottom: 46px;
+    }
+  }
+
+  @media screen and (max-width:768px) {
+    .princing_head {
+      font-family: Radio Canada;
+      font-size: 18px;
+      font-weight: 700;
+      line-height: 30px;
+      letter-spacing: 0em;
+      text-align: center;
+      color: #FFFFFF;
+  }
+    .pricing_subhead{
+        font-family: Inter;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: center;
+    color:#FFFFFF;
+    }
+  }
+  @media screen and (max-width:425px) {
+    .princing_head{
+        font-family: Radio Canada;
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 35px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #FFFFFF;
+    
+    }
+    .pricing_subhead{
+        font-family: Inter;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: center;
+    color:#FFFFFF;
+    }
+  }

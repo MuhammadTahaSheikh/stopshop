@@ -1,0 +1,268 @@
+.main_testimonial{
+  background-image: url("../../Assets/feedback.png");
+  padding-bottom: 60px;
+}
+
+.owl-theme .owl-dots {
+  display: none;
+}
+.owl-carousel .owl-nav button.owl-prev:hover, .owl-carousel .owl-nav button.owl-next:hover, .owl-carousel button.owl-dot {
+  
+color: orangered;
+
+}
+.owl-carousel .owl-nav button.owl-prev, .owl-carousel .owl-nav button.owl-next, .owl-carousel button.owl-dot {
+  width: 50px;
+  height: 50px;
+  color: #000;
+  font-size: 27px;
+  left: 50px;
+  background: #FFFFFF !important;
+  padding: 4px 0px 6px 0px !important;
+  margin: 0px 30px 0px 30px !important;
+  box-shadow: 0px 4px 4px 0px #00000040;
+}
+.owl-stage-outer{
+  height: 360px !important;
+}
+
+  .gtco-testimonials {
+    position: relative;
+  
+ 
+  width: 100%;
+  height: 587.45px;
+padding-top: 30px;
+  
+  
+    /* .owl-stage-outer {
+      padding: 30px 0;
+    }
+  
+    .owl-nav {
+      display: none;
+    }
+  
+    .owl-dots {
+      text-align: center;
+  
+      span {
+        position: relative;
+        height: 10px;
+        width: 10px;
+        border-radius: 50%;
+        display: block;
+        background: #fff;
+        border: 2px solid #01b0f8;
+        margin: 0 5px;
+      }
+  
+     
+    } */
+  
+    .card {
+      background: #fff;
+      box-shadow: -1px -1px 1px #FF5E15;
+      margin: 0 20px;
+      padding: 0 10px;
+      border-radius: 0px;
+      border: 0;
+      box-shadow: 0px 1px 4px 0px #FF5E15;
+
+      .card-img-top {
+        max-width: 100px;
+        border-radius: 50%;
+        margin: 15px auto 0;
+        box-shadow: 0 8px 20px -4px #95abbb;
+        width: 100px;
+        height: 100px;
+      }
+  
+    
+  
+      p {
+        font-size: 18px;
+        color: #555;
+        padding-bottom: 15px;
+      }
+    }
+  
+    /* .active {
+      opacity: 0.5;
+      transition: all 0.3s;
+    } */
+  
+    .center {
+      opacity: 1;
+  
+      h5 {
+        font-size: 24px;
+  
+        span {
+          font-size: 20px;
+        }
+      }
+  
+      .card-img-top {
+        max-width: 100%;
+        height: 120px;
+        width: 120px;
+      }
+    }
+  }
+  
+  @media (max-width: 767px) {
+    .gtco-testimonials {
+      margin-top: 20px;
+    }
+  }
+/*   
+  .owl-carousel {
+    .owl-nav button {
+      &.owl-next, &.owl-prev {
+        outline: 0;
+      }
+    }
+  
+    button.owl-dot {
+      outline: 0;
+    }
+  } */
+
+  .client_subhead{
+color: #00235A;
+font-family: Inter;
+font-size: 16px;
+font-weight: 400;
+line-height: 28px;
+letter-spacing: 0em;
+text-align: center;
+
+  }
+  .client_head{
+    color: #00235A;
+    font-family: Radio Canada;
+font-size: 38px;
+font-weight: 700;
+line-height: 54px;
+letter-spacing: 0em;
+text-align: center;
+
+
+  }
+
+
+  .feedback_name{
+    font-family: Radio Canada;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: center;
+color: #00235A;
+}
+  .feedback_desig{
+    color: #FF5E15;
+    font-family: Radio Canada;
+font-size: 16px;
+font-weight: 500;
+line-height: 19px;
+letter-spacing: 0em;
+text-align: center;
+
+  }
+  .feedback_content{
+    color: #7E7E7E;
+    font-family: Radio Canada;
+font-size: 16px;
+font-weight: 400;
+line-height: 22px;
+letter-spacing: 0em;
+text-align: center;
+
+  }
+
+  @media screen and (max-width:560px) {
+    
+    .client_head {
+      color: #00235A;
+      font-family: Radio Canada;
+      font-size: 26px;
+      font-weight: 700;
+      line-height: 54px;
+      letter-spacing: 0em;
+      text-align: center;
+  }
+  .client_subhead {
+    color: #00235A;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+  }
+
+  @media screen and (max-width:1199px) {
+    /* .owl-stage-outer {
+      padding: 0px 0 !important; 
+   } */
+  }
+
+
+  @media screen and (max-width:425px) {
+    .card {
+     
+       margin: 0px !important; 
+       padding: 0px !important; 
+     
+  }
+  .gtco-testimonials {
+    position: relative;
+    width: 100%;
+ 
+    padding-top: 30px;
+}
+  }
+
+
+  @media screen and (max-width:768px) {
+    .gtco-testimonials {
+      position: relative;
+      width: 100%;
+      height: 100% !important; 
+      padding-top: 30px;
+  }
+  .owl-stage-outer {
+    height: 379px !important;
+}
+  }
+
+
+  @media screen and (max-width:1399px) {
+    .owl-stage-outer {
+      height: 425px !important;
+  }
+  .gtco-testimonials {
+    position: relative;
+    width: 100%;
+    height: 100% !important; 
+    padding-top: 30px;
+}
+  }
+
+
+  @media screen and (max-width:1024px) {
+    .owl-stage-outer {
+      height: 455px !important;
+  }
+    .gtco-testimonials {
+      position: relative;
+      width: 100%;
+      height: 100% !important; 
+      padding-top: 30px;
+  }
+ 
+}

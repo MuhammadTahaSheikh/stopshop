@@ -1,0 +1,109 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Inter&family=Radio+Canada:wght@400;500;700&display=swap');
+
+  @import url('https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@1,700&family=Inter&family=Radio+Canada:wght@400;500;700&display=swap');
+.main_faq{
+    padding-bottom: 50px;
+    background-color: #ffffff;
+    padding-top: 50px;
+}
+
+.faq_head{
+    font-family: Radio Canada;
+font-size: 24px;
+font-weight: 700;
+line-height: 0px;
+letter-spacing: 0em;
+text-align: left;
+color: #00235A;
+padding-top: 15px;
+}
+.faq_ques{
+    font-family: Radio Canada;
+font-size: 40px;
+font-weight: 700;
+line-height: 58px;
+letter-spacing: 0em;
+text-align: left;
+color:#1F212D ;
+
+
+}
+.faq_queso{
+    font-family: Radio Canada;
+font-size: 38px;
+font-weight: 700;
+line-height: 58px;
+letter-spacing: 0em;
+text-align: left;
+color:#FF5E15 ;
+}
+/* Add this CSS to your Faq.css file or in your component style tag */
+
+.accordion-item {
+    border: none !important; /* Remove border around each accordion item */
+    background-color: transparent !important;
+  }
+  
+  .accordion-button {
+    border-bottom: 1px solid #ddd  !important; /* Add a bottom border to accordion buttons */
+    background-color: transparent !important; /* Set a background color for accordion buttons */
+  }
+  
+  .accordion-body {
+    border-bottom: 1px solid #ddd; /* Add a bottom border to accordion body */
+    padding: 10px; /* Adjust padding for better spacing */
+    padding-left: 1px !important;
+  }
+  
+  /* Style for the open accordion item */
+  .accordion-item.show .accordion-button {
+    background-color: transparent !important; /* Set a white background color for the open accordion button */
+  }
+  .faq_contenthead{
+color: #373B3E;
+font-family: Radio Canada;
+font-size: 24px;
+font-weight: 700;
+line-height: 34px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+  .accordion-button{
+    padding-left: 0px !important;
+
+  }
+  @media screen and (max-width:767px) {
+    .main_faq{
+        margin-top: 70px;
+    }
+    .faq_ques {
+      font-family: Radio Canada;
+      font-size: 24px;
+      font-weight: 700;
+      line-height: 38px;
+      letter-spacing: 0em;
+      text-align: left;
+      color: #1F212D;
+  }
+  .faq_queso {
+    font-family: Radio Canada;
+    font-size: 31px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FF5E15;
+}
+.faq_contenthead {
+  color: #373B3E;
+  font-family: Radio Canada;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 34px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+  }
