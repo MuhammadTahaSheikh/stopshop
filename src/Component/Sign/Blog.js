@@ -1,16 +1,15 @@
 import React, { useEffect, useState } from "react";
-import "./Blog.css"
+import "./Blog.css";
 import { Link } from "react-router-dom";
 import axios from "axios";
 import Pagination from "react-js-pagination";
-import Footer from '../FooterStop/Footer'
-import slugify from 'slugify'; 
+import Footer from "../FooterStop/Footer";
+import slugify from "slugify";
 
 import Loader from "./Loader.js";
 import NavbarMain from "../NavbarUpper/NavbarMain.js";
 
 function Blog() {
-  
   const [isVisible, setIsVisible] = useState(false);
   const scrollToTop = () => {
     window.scrollTo({
@@ -57,7 +56,7 @@ function Blog() {
       .then((res) => {
         const sortedData = res.data.data.sort((a, b) => {
           return new Date(b.created_at) - new Date(a.created_at);
-      });
+        });
 
         setblogsdata(res.data);
         setFilteredRelatedPostData(res.data.data);
@@ -85,7 +84,7 @@ function Blog() {
       const datePart = updated_at.split("T")[0];
       return datePart;
     }
-    return null; 
+    return null;
   };
 
   const [tagsdata, settagsdata] = useState("");
@@ -123,11 +122,10 @@ function Blog() {
   return (
     <>
       <>
-        <NavbarMain/>
-        <div className='service_back'>
-        <div className='list_building mt-5 mb-5 pt-4'>BLOGS
-     </div>
-   </div>
+        <NavbarMain />
+        <div className="service_back">
+          <div className="list_building mt-5 mb-5 pt-4">BLOGS</div>
+        </div>
       </>
       <div className="main_div_blog_new">
         <div className="container">
@@ -149,7 +147,7 @@ function Blog() {
                       {data?.created_at
                         ? extractDateFromUpdatedAt(data?.created_at)
                         : null}
-                    </p>    
+                    </p>
 
                     <p
                       className="para_in_blog_new"
@@ -161,15 +159,19 @@ function Blog() {
                       }}
                     ></p>
 
-                    <Link to={`/blogs/${data.id}/${slugify(data.title, { lower: true })}`}>
-                    <p className="read_more_para">Read More</p>
+                    <Link
+                      to={`/blogs/${data.id}/${slugify(data.title, {
+                        lower: true,
+                      })}`}
+                    >
+                      <p className="read_more_para">Read More</p>
                     </Link>
                   </div>
                 </>
               ))
             ) : (
               <div className="loader_div">
-            <Loader/>
+                <Loader />
               </div>
             )}
           </div>
@@ -202,7 +204,7 @@ function Blog() {
           </button>
         )}
       </>
-      <Footer/>
+      <Footer />
     </>
   );
 }

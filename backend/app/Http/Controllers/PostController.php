@@ -14,7 +14,8 @@ class PostController extends Controller
     public function index()
     {
         try {
-            $posts = Post::with('user')->paginate(12);
+            // $post = Post::with('user')->paginate(12);
+            $posts = Post::with('user')->orderBy('created_at', 'desc')->paginate(12);
             $postsWithImagesAndUsers = $posts->getCollection()->map(function ($post) {
                 return [
                     'id' => $post->id,
@@ -88,9 +89,7 @@ class PostController extends Controller
                 'quote' => 'nullable|string',
                 'category_id' => 'required',
                 'tag_id'=> 'required',
-                'image' => 'image|mimes:jpeg,png,jpg,gif|'
-
-
+               'image' => 'image|mimes:jpeg,png,jpg,gif|'
             ]);
             $post = new Post();
             $post->title = $request->input('title');

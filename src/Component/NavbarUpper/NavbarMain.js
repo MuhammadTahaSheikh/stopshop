@@ -16,7 +16,7 @@ function NavbarMain() {
       <div className='col-xl-2 col-lg-3 col-md-2'>
       <div className="p-1 social-links">
       <a href="https://www.facebook.com/stopshoprei" target="_blank"><i class="fab fa-facebook-f"></i></a>
-      <a href="" target="_blank"><i class="fab fa-twitter"></i></a>
+      <a href="https://www.youtube.com/channel/UChVmY2CdcZGEVUq6Dh0WloQ" target="_blank"><i class="fab fa-youtube"></i></a>
       <a href="https://www.instagram.com/stopshoprei/" target="_blank"><i class="fab fa-instagram"></i></a>
       <a href="https://www.linkedin.com/company/stopshoprei/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
   </div>
