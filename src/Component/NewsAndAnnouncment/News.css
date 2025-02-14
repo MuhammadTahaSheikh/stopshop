@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Livvic:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,900&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+.main_news {
+  background: url("../../Assets/news/background.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.news_heading {
+  color: #ffffff;
+  font-family: Radio Canada;
+  font-size: 38px;
+  font-weight: 700;
+  line-height: 54px;
+  text-align: center;
+}
+.box-container {
+  display: flex;
+  flex-wrap: wrap; /* Allow the boxes to wrap to the next row */
+  gap: 10px; /* Add space between the boxes */
+  padding-bottom: 50px;
+}
+.new_img_css {
+  width: 100%;
+  height: 100%;
+}
+.box-content {
+  display: flex;
+  gap: 80px;
+  font-family: Poppins;
+  font-size: 13.43px;
+  font-weight: 400;
+  line-height: 24.95px;
+  text-align: left;
+  color: #454545;
+  padding-top: 15px;
+}
+.box {
+  flex: 1 1 calc(33.33% - 10px); /* Each box takes up 1/3 of the row's width */
+  background-color: #ffffff;
+  padding: 15px;
+  text-align: center;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  height: 100%;
+}
+.new_learn {
+  font-family: Livvic;
+  font-size: 15.35px;
+  font-weight: 600;
+  line-height: 24.95px;
+  text-align: left;
+  color: #061340;
+  cursor: pointer;
+  padding-bottom: 20px;
+}
+.content_detail_paragraph {
+  font-family: Poppins;
+  font-size: 15.35px;
+  font-weight: 400;
+  line-height: 27.63px;
+  text-align: left;
+  color: #454545;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 2; /* number of lines to show */
+  line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+.content_main_paragraph {
+  font-family: Livvic;
+  font-size: 19.19px;
+  font-weight: 600;
+  line-height: 26.87px;
+  text-align: left;
+  color: #101010;
+}
+/* Media queries for responsiveness */
+@media (max-width: 768px) {
+  .box {
+    flex: 1 1 calc(50% - 10px); /* 2 boxes per row on tablets */
+  }
+}
+
+@media (max-width: 480px) {
+  .box {
+    flex: 1 1 100%; /* 1 box per row on mobile devices */
+  }
+}

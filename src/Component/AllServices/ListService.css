@@ -1,0 +1,243 @@
+
+:root {
+    --base-color: #FF7425;
+    --base-color-1: #FF7425;
+    --base-color-2: #FFE43B;
+    --base-color-3: #7486E5;
+    --base-color-4: #63DAD9;
+    --base-color-5: #14A3EB;
+    --base-color-6: #43d4d2;
+    --base-color-7: #7489f7;
+    --base-gd-color: linear-gradient( 45deg, rgb(250,96,6) 0%, rgb(255,181,138) 100%);
+    --orix-base-color: #fd4344;
+    --heading-1: 'Arimo';
+    --heading-2: 'Oswald';
+    --heading-3: 'Jost';
+    --heading-4: 'Poppins';
+    --body-font: 'Arimo';
+    --base-color: #ffc801;
+    --orx-heading: 'Unbounded', cursive;
+    --orx-body-font: 'Unbounded', cursive;
+    --transition: 500ms all ease;
+    --heading: 'Nunito';
+    --transition: 500ms all ease;
+}
+.service_back{
+  background-image: url("../../Assets/allservices_back.png");
+  width: 100%;
+height: 138px;
+}
+
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+
+.ListHeading{
+    margin: 0;
+    font-weight: 400;
+    font-family: var(--heading-4);
+    font-size: 30px;
+    font-weight: 700;
+    color: #606573;
+ 
+
+
+
+}
+.Listsubheading{
+    color: #262420;
+    font-size: 18px;
+    line-height: 30px;
+    padding-top: 30px;
+}
+
+.list_style{
+    color: #9397A0;
+    font-size: 18px;
+    padding-bottom: 15px;
+}
+.list_bold{
+ 
+    font-size: 17px;
+    font-weight: 700;
+    align-items: center;
+    color: #606573;
+}
+.content_css{
+  color: #262420;
+    font-size: 17px;
+}
+.Services_list{
+    background-color: #00235A;
+    height: 900px;
+    border-radius: 0px;
+    color: #ffffff;
+}
+.list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .list-item {
+    padding: 10px;
+    position: relative;
+    cursor: pointer;
+  }
+  
+  .arrow {
+    position: absolute;
+    right: 10px;
+    transition: transform 0.3s ease;
+  }
+  
+  .arrow.up {
+    transform: rotate(180deg); 
+  }
+  
+  .hovered {
+    color: #ff6900; 
+  }
+  .list_stylecol{
+   
+    font-size: 18px;
+    font-weight: 400;
+
+  }
+  .service_head{
+    font-size: 24px;
+    font-weight: 700;
+    position: relative;
+    margin-bottom: 40px;
+    display: inline-block;
+    color: #fff;
+    text-decoration: underline;
+    text-decoration-color: #ff6900;
+  }
+.listmarketing_num{
+    font-size: 50px;
+    font-weight: 700;
+    margin-right: 20px;
+    color: black;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgb(0 0 0 / 30%);
+    -webkit-transition: 500ms all ease;
+    transition: 500ms all ease;
+}
+
+.listmarketing_content{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    font-size: 18px;
+    font-weight: 700;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    color: #606573;
+
+}
+.listmarketing_par{
+    color: #262420;
+    font-size: 17px;
+    max-width: 380px;
+   
+}
+.list_building{
+    color: #ffffff !important;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 60px;
+    padding-bottom: 12px;
+    text-align: center;
+   
+}
+  @media screen and (max-width:1390px) {
+    .list_stylecol {
+        font-size: 16px;
+        font-weight: 400;
+    }
+  }
+  @media screen and (max-width:991px) {
+
+    .list_building{
+        color: #606573;
+        font-size: 30px;
+        font-weight: 700;
+        line-height: 60px;
+        padding-bottom: 12px;
+        text-align: center;
+    }
+  }
+
+  .service_list{
+    text-decoration: none !important;
+    color: #fff;
+
+  }
+
+  .service_list:hover{
+   
+    color: #ff6900 !important;
+    
+  }
+
+  ol {
+    list-style-type: none;
+    padding: 0;
+  }
+
+  /* Style for list items */
+  li {
+    margin-bottom: 10px;
+  }
+
+  /* Style for images */
+  .imgultick {
+    width: 30px; /* Set the width of the image */
+    height: 30px; /* Set the height of the image */
+    margin-right: 5px; /* Add some space to the right of the image */
+  }
+  @media screen and (max-width:991px) {
+    .service_img{
+      width: 100%;
+    }
+  }
+  @media screen and (max-width:425px) {
+  .ListHeading {
+    margin: 0;
+    font-weight: 400;
+    font-family: var(--heading-4);
+    font-size: 18px;
+    font-weight: 700;
+    color: #606573;
+}
+.Listsubheading {
+  color: #262420;
+  font-size: 16px;
+  line-height: 30px;
+  padding-top: 30px;
+}
+.list_style {
+  color: #9397A0;
+  font-size: 16px;
+  padding-bottom: 15px;
+}
+  }
+  
+  @media screen and (max-width:768px) {
+    .ListHeading {
+     
+      font-weight: 400;
+      font-family: var(--heading-4);
+      font-size: 28px;
+      font-weight: 700;
+      color: #606573;
+  }
+  }

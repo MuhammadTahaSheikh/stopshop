@@ -1,0 +1,203 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@1,700&family=Fira+Sans&family=Inter:wght@400;600&family=Poppins:wght@600&family=Radio+Canada:wght@400;500;600;700&display=swap');
+
+  @import url('https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@1,700&family=Fira+Sans&family=Inter:wght@400;600&family=Poppins:wght@600&family=Radio+Canada:wght@400;500;600;700&display=swap');
+  
+  @import url('https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@1,700&family=Fira+Sans&family=Inter:wght@400;600&family=Poppins:wght@600&family=Radio+Canada:wght@400;500;600;700&family=Ubuntu&display=swap');
+
+.dedicatedService_head{
+    font-family: Radio Canada;
+font-size: 38px;
+font-weight: 700;
+line-height: 54px;
+letter-spacing: 0em;
+text-align: center;
+color:#00235A ;
+}
+.dedicatedService_content{
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: center;
+    color:#00235A ; 
+
+}
+
+.container {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+
+  
+  .services-container {
+  
+    display: flex;
+    /* justify-content: space-around; */
+justify-content: space-evenly;
+    flex-wrap: wrap;
+  }
+  
+  .service {
+    text-align: center;
+    /* margin: 10px; */
+  }
+  
+  /* .service-image {
+    width: 150px; 
+    height: auto;
+  } */
+  
+  .service-description {
+    font-size: 15px;
+  }
+ 
+  /* .selected {
+    text-decoration: underline;
+    
+
+    text-decoration-thickness: 3px;
+
+text-decoration-color: #FF5E15;
+  } */
+  .both_content{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+  /* .service_img{
+    width: 100%;
+    height: 100%;
+  } */
+  .discover_more{
+
+    width: 151.11px;
+height: 56px;
+top: 1602px;
+left: 835px;
+padding: 0px, 17.11px, 0px, 17px;
+border: 1px;
+background-color:#FF5E15 ;
+color: #ffffff;
+  }
+  .li_items{
+    text-align: justify;
+  }
+  .content_name_Slider{
+    font-family: Ubuntu;
+font-size: 24px;
+font-weight: 700;
+line-height: 28px;
+letter-spacing: 0em;
+text-align: left;
+
+color: #FF5E15;
+  }
+  .content_name_Slider_p{
+    font-family: Ubuntu;
+font-size: 18px;
+font-weight: 400;
+line-height: 21px;
+letter-spacing: 0em;
+text-align: left;
+color:#373737 ;
+  }
+  .dis_text{
+    text-align: start;
+  }
+  .service-image {
+    transition: opacity 0.5s ease;
+  }
+  
+  .service.selected .service-image {
+    opacity: 1;
+  }
+  
+  .service.selected {
+    transform: scale(1);
+    transition: transform 0.1s ease;
+
+  }
+  .service.selected {
+    transform: scale(1);
+    transition: transform 0.1s ease;
+border-radius: 5px solid red;
+  }
+  @media screen and (max-width:1650px){
+    .service-image{
+      width:100px !important;
+    }
+    .service-description {
+      font-size: 11px !important;
+  }
+  }
+
+  @media screen and (max-width:1280px){
+    .service-image{
+      width:90px !important;
+    }
+    .service-description {
+      font-size: 10px !important;
+  }
+  }
+  @media screen and (max-width:480px){
+    .service-image{
+      width:80px !important;
+    }
+    .service-description {
+      font-size: 6px !important;
+      font-weight: bold !important;
+  }
+  }
+
+  /* @keyframes slideInFromRight {
+    0% {
+      transform: translateX(-5%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0%);
+      opacity: 1;
+    }
+  } */
+  
+  .service-image {
+    transition: opacity 0.5s ease;
+  }
+  
+  .slide-in {
+    animation: slideInFromRight 0.9s ease forwards;
+  }
+  @media screen and (min-width:1440px){
+    .services-container {
+      height: 260px !important;
+    }
+  }
+  @media screen and (min-width:1240px){
+    .services-container {
+      height: 160px;
+    }
+  }
+
+  @media screen and (max-width:768px) {
+    .dedicatedService_head {
+      font-family: Radio Canada;
+      font-size: 30px;
+      font-weight: 700;
+      line-height: 54px;
+      letter-spacing: 0em;
+      text-align: center;
+      color: #00235A;
+  }
+  .dedicatedService_content {
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #00235A;
+}
+  }

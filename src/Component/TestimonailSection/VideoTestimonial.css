@@ -1,0 +1,77 @@
+/* src/components/VideoTestimonial.css */
+.video-testimonial-container {
+    display: flex;
+    flex-wrap: wrap; /* Allows wrapping to the next line */
+    gap: 20px;
+    justify-content: space-between;
+    padding-top: 20px;
+  }
+  
+  .video-testimonial-box {
+    flex: 1 1 calc(33.333% - 20px); /* Three boxes per row */
+    min-width: 300px; /* Minimum width of each box */
+    max-width: 33.333%;
+    text-align: center;
+    /* background-color: #f4f4f4; */
+   
+    /* padding: 15px; */
+    /* box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    background-color: var(--transparent);
+    border-color: var(--gray);
+    border-width: 5px;
+    border-style: solid; */
+  }
+  
+  .video-testimonial-box video {
+    width: 100%;
+    border-radius: 10px;
+  }
+  
+  .testimonial-text {
+    margin-top: 15px;
+  }
+  
+  .testimonial-text p {
+    font-size: 1.2em;
+    color: #333;
+  }
+  
+  .testimonial-text h4 {
+    font-size: 1em;
+    color: #666;
+    margin-top: 5px;
+  }
+  .client_subhead{
+    color: #00235A;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: center;
+    width: 100%;
+      }
+      .client_head{
+        color: #00235A;
+        font-family: Radio Canada;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 54px;
+    letter-spacing: 0em;
+    text-align: center;
+    width: 100%;
+
+    
+      }
+  @media screen and (max-width:560px) {
+    
+    .client_head {
+      color: #00235A;
+      font-family: Radio Canada;
+      font-size: 26px;
+      font-weight: 700;
+      line-height: 34px;
+      letter-spacing: 0em;
+      text-align: center;
+  }
+}

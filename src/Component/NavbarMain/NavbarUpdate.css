@@ -1,0 +1,189 @@
+@import url("https://fonts.googleapis.com/css2?family=Radio+Canada:ital,wght@0,300..700;1,300..700&display=swap");
+
+.navbar_background {
+  background: url("../../Assets/NavbarUpdate/background.png");
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.experience_navbar {
+  font-family: Radio Canada;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 40px;
+  text-align: left;
+  color: #ff5e15;
+  padding-top: 30px;
+  margin: auto 0;
+}
+.elevate_realestate {
+  font-family: Radio Canada;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 40px;
+  text-align: left;
+  color: #ffffff;
+  margin: auto 0;
+}
+.red-line {
+  border-top: 2px solid #ff5e15; /* Thickness and color of the line */
+  width: 60%; /* Full width of its container */
+  margin: auto 0; /* Margin to space the line from other elements */
+}
+.explore_realestate {
+  font-family: Radio Canada;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 24px;
+  text-align: left;
+  color: #fafafa;
+  margin: auto 0;
+  padding-top: 5px;
+}
+.welcome_family {
+  font-family: Radio Canada;
+  font-size: 64px;
+  font-weight: 600;
+  /* line-height: 35px; */
+  text-align: left;
+  color: #ffffff;
+  margin: auto 0;
+}
+.horizontal-line {
+  background-color: #ff5e15;
+  width: 8px;
+  height: 14vh;
+}
+.hire_professional {
+  font-family: Radio Canada;
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 30px;
+  text-align: left;
+  color: #ffffff;
+  margin: auto 0;
+}
+.save68 {
+  font-weight: 600;
+  color: #ff5e15;
+}
+/* BannerComponent.css */
+.banner {
+  text-align: center;
+  margin: 20px;
+}
+
+.banner-image {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.banner-content {
+  padding: 20px;
+  background-color: #f8f9fa;
+  border-radius: 8px;
+}
+.banner_img {
+  background: url("../../Assets/NavbarUpdate/banner.png");
+  width: 262px;
+  height: 169px;
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.stopshop_support {
+  font-family: Radio Canada;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 22px;
+  text-align: left;
+  color: #000000;
+}
+.list-content {
+  list-style: none;
+}
+.list-icon {
+  margin: 0 !important;
+  color: #ffffff;
+  font-family: Radio Canada;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 29px;
+  text-align: left;
+}
+.arrow_img {
+  margin: 35px 0px;
+}
+
+.notepad_back {
+  background: url("../../Assets/NavbarUpdate/notepad.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 356px;
+  height: 424px;
+  margin-top: 65px;
+}
+.free_consultancy {
+  font-family: Radio Canada;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 34px;
+  text-align: center;
+  color: #00235a;
+}
+.commited_consultancy {
+  font-family: Radio Canada;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 28px;
+  text-align: center;
+  color: #00235a;
+}
+.btn_schedule {
+  border: 1px solid #ff5e15;
+  background-color: #ff5e15;
+  width: 151.11px;
+  height: 56px;
+
+  padding: 0px 19.11px 0px 18px;
+
+  border: 1px;
+  color: #ffffff;
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 14px;
+  text-align: center;
+}
+@media screen and (max-width: 1024px) {
+  .notepad_back {
+    width: 330px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .list-content {
+    padding: 5px;
+  }
+  .welcome_family {
+    font-size: 30px;
+  }
+  .hire_professional {
+    font-size: 20px;
+  }
+  .horizontal-line {
+    height: 9vh;
+  }
+  .explore_realestate {
+    font-size: 12px;
+  }
+}
+@media screen and (max-width: 425px) {
+  .horizontal-line {
+    height: 20vh;
+  }
+}

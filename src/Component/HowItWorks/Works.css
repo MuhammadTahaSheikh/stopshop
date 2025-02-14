@@ -1,0 +1,81 @@
+.works_paragraph {
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  text-align: center;
+  color: #00235a;
+}
+.works_head {
+  font-family: Radio Canada;
+  font-size: 38px;
+  font-weight: 700;
+  line-height: 54px;
+  text-align: center;
+  color: #00235a;
+}
+.point_content {
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  color: #000000;
+}
+.point_heading {
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 28px;
+  text-align: left;
+  color: #000000;
+}
+.line-with-circles {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background-color: #ff5e15; /* Line color */
+  z-index: -1; /* Send it behind the numbers */
+}
+
+.circle-number {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #ff5e15; /* Circle background color */
+  color: #fff; /* Number color */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+}
+
+.circle-number.start {
+  left: 0;
+  transform: translate(0%, -50%);
+}
+
+.circle-number.middle {
+  left: 35%;
+  transform: translate(-50%, -50%);
+}
+
+.circle-number.end {
+  left: 66%;
+  transform: translate(50%, -50%);
+}
+.circle-number.yellow-circle {
+  background-color: #00235a;
+}
+.line_start_all {
+  margin-top: 85px;
+  margin-bottom: 50px;
+}
+@media screen and (max-width: 500px) {
+  .line_start_all {
+    display: none;
+  }
+}
